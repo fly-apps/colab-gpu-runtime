@@ -1,0 +1,9 @@
+app = "colab-gpu"
+primary_region = "ord"
+vm.size = "a100-40gb" 
+
+[build]
+  image = "us-docker.pkg.dev/colab-images/public/runtime"
+
+[http_service]
+  internal_port = 8080
